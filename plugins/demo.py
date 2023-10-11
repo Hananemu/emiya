@@ -7,7 +7,7 @@ def sendGroupMessage(gid: int, text: str):
     requests.post(f"{BASEURL}/send_group_msg", data=d)
 
 
-@oncommand (promat=["","/"],cmd=["yy"])
+@oncommand (promat=["","/"],cmd=["xk","下课"])
 def handle(n):
     os.system("python.Birthday.py")
     sendGroupMessage(text="启动成功",gid=n.group_id)
