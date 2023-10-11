@@ -1,2 +1,2 @@
 import easygui
-easygui.msgbox(msg="cwb18了")
+easygui.msgbox(msg="woyouyiyuzheng")
