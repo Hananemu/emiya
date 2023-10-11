@@ -3,7 +3,7 @@ import time
 
 # 创建主窗口
 root = tk.Tk()
-root.title("等待一秒后关闭窗口")
+root.title("woyouyiyuzheng")
 
 # 等待一秒
 time.sleep(1)
