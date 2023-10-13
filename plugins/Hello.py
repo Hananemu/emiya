@@ -1,5 +1,5 @@
 #coding:utf-8
-from libs.event.qqvent import oncommand
+from libs.event.qqevent import oncommand
 import requests
 BASEURL = "http://127.0.0.1:5700"
 def sendGroupMessage(gid: int, text: str):
