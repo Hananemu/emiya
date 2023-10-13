@@ -6,7 +6,7 @@ def sendGroupMessage(gid: int, text: str):
     d = {"message": text, "group_id": gid}
     requests.post(f"{BASEURL}/send_group_msg", data=d)
 
-@oncommand(promat=(""),cmd=("启动"))
+@oncommand(promat=["","/"],cmd=["启动"])
 def handle(n):
   try:
     sendGroupMsg(gid=n.group_id,text="Hello World!")
