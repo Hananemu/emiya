@@ -1,3 +1,4 @@
+#coding:utf-8
 from libs.event.qqvent import oncommand
 import requests
 BASEURL = "http://127.0.0.1:5700"
